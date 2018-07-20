@@ -6,7 +6,7 @@ set -o errexit
 
 rvm_install_initialize()
 {
-  DEFAULT_SOURCES=(github.com/rvm/rvm bitbucket.org/mpapis/rvm)
+  DEFAULT_SOURCES=(github.com/adaptavist/rvm bitbucket.org/mpapis/rvm)
 
   BASH_MIN_VERSION="3.2.25"
   if
